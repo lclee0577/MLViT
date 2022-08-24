@@ -128,7 +128,6 @@ for datasetName in eval_data_list:
     result.append(accu)
 
 print("|          |IC13|SVT |IT5K|IC15|SVTP|CUTE|")   
-print("|benchmark |93.6|87.5|87.9|77.6|79.2|74.0|")
 print("|ours      |",end="")
 for each in result:
     print(f"{each*100:2.1f}",end="|")
